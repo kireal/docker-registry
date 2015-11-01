@@ -8,7 +8,7 @@ Verify that the port is not already used (typically, by another container). You 
 
 The standalone registry does not provide account management. For simple
 access control, you can set up an nginx or Apache frontend with basic
-auth enabled (see the (advanced documentation)[ADVANCED.md] for more about that).
+auth enabled (see the [advanced documentation](ADVANCED.md) for more about that).
 
 
 ## How do I report a bug?
@@ -24,3 +24,5 @@ Please insert the following into your bug report:
 Please, no "this happens to me as well" comments on tickets - not helpful.
 
 On the other hand, if you do have any useful information to provide, by all means do. 
+
+Also see [debugging](DEBUGGING.md) for more indepth information about troubleshooting and performance testing.

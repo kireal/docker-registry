@@ -1,6 +1,13 @@
 # Docker-registry
 
-## 0.9.0-dev
+## 0.9.1
+
+ * fixed database initialization issues
+ * move away from rsa to m2crypto
+ * s3 enhancements and bug fixes
+ * enforce additional checks on image ids
+
+## 0.9.0
 
  * "loose" dependencies mechanism (DEPS=loose environment var will let you install without strictly versioned dependencies)
  * enhanced python version compatibility
@@ -11,7 +18,9 @@
  * removed unused endpoints and code
  * improved documentation
  * more complete CORS support (as en extra)
- 
+ * boto/gevent bugfixes
+ * documentation improvements
+
 ## 0.8.1
 
  * security fixes (path traversing prevention and token validation)
